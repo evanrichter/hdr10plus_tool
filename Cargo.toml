@@ -25,3 +25,6 @@ predicates = "2.1.1"
 [[bin]]
 name = "hdr10plus_tool"
 path = "src/main.rs"
+
+[patch.crates-io]
+hevc_parser = { path = "vendor/hevc_parser" }
